@@ -1,0 +1,38 @@
+{
+  "customer": {
+    "name": "ABC Enterprises",
+    "address": "Mumbai, Maharashtra",
+    "state": "Maharashtra",
+    "stateCode": "27",
+    "gstin": "27ABCDE1234F1Z5",
+    "phone": "9876543210",
+    "email": "abc@example.com"
+  },
+  "items": [
+    {
+      "description": "Website Development",
+      "productname": "web app2",
+      "consigner_name": "ABC Enterprises",
+      "hsn": "998314",
+      "quantity": 1,
+      "rate": 25000,
+      "discount": 0,
+      "gstRate": 18
+    },
+    {
+      "description": "Hosting",
+      "productname": "web app2",
+      "consigner_name": "ABC Enterprises",
+      "hsn": "998315",
+      "quantity": 2,
+      "rate": 2500,
+      "discount": 0,
+      "gstRate": 18
+    }
+  ],
+  "payment": {
+    "method": "Bank Transfer",
+    "status": "Paid"
+  },
+  "notes": "Thank you for your business."
+}

@@ -1,0 +1,15 @@
+{
+  "name": "invoice-mvc-pdfkit",
+  "version": "1.0.0",
+  "description": "Complete Invoice MVC API with Express, SQLite and PDFKit",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.1.0",
+    "pdfkit": "^0.17.2"
+  }
+}

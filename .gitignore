@@ -1,0 +1,44 @@
+node_modules/
+data/*.db
+storage/invoices/*.pdf
+.env
+
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+dist/
+build/
+*.log
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQLite database
+data/*.db
+data/*.db-*
+data/*-shm
+data/*-wal
+
+# Generated invoices
+storage/invoices/*.pdf
+
+# Build / coverage
+coverage/
+dist/
+build/
